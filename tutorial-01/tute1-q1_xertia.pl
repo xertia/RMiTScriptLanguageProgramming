@@ -11,7 +11,7 @@ my $count = 0;
 
 if ($arraySize < 2)
 {
-	print "Error, not enough elements!\n";
+	die "Error, not enough elements!\n";
 }
 else
 {
@@ -23,3 +23,4 @@ else
 	}
 }
 
+exit;
